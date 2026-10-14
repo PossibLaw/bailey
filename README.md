@@ -1,10 +1,12 @@
 # Bailey — by PossibLaw
 
+> **Unmaintained exemplar.** Bailey is no longer being updated or actively maintained. Anyone may study, use, or fork it under the [Apache-2.0 license](LICENSE). No support, bug fixes, or security updates are promised; the implementation and documentation are a historical snapshot.
+
 **Build your own firm: run the business side of a legal practice with AI agents — and, when you're ready, the practice itself. Every action gated, receipted, and verifiable. Built on the [paperclip](https://github.com/paperclipai/paperclip) control plane.**
 
 > **Why "Bailey"?** A bailey is the walled courtyard of a castle — where the work happens: inside the walls, behind the gate. Bailey is the project name; [PossibLaw](https://www.PossibLaw.com) is the brand behind it. Landing page and 90-second demo: [bailey.PossibLaw.com](https://bailey.PossibLaw.com). The CLI and package keep their `possiblaw` names.
 
-> **What this is (and isn't).** Bailey is side-project R&D, built for under $500 to show that kind of R&D is affordable — and, in the spirit of [Lavern](https://github.com/AnttiHero/lavern), it is published as a **source of inspiration**: ideas in a repo, yours to take. It is a test case, not a product. Development may continue or may not. Buyer beware: we make **no representations about fitness for any end use** — the Apache-2.0 license disclaims all warranties, and anything touching real legal work must be evaluated against your own professional obligations first (see the regulated-work note below and [docs/known-limitations.md](docs/known-limitations.md)). The point of the build was the learning; the repo is the receipt.
+> **What this is (and isn't).** Bailey is side-project R&D, built for under $500 to show that kind of R&D is affordable — and, in the spirit of [Lavern](https://github.com/AnttiHero/lavern), it is published as a **source of inspiration**: ideas in a repo, yours to take. It is a test case, not a product. It is provided **AS IS, without warranties or conditions of any kind**, with the disclaimer of warranty and limitation of liability in [LICENSE](LICENSE), sections 7–8. We make **no representations about fitness for any end use** or security guarantees. Operators are responsible for evaluating security and their own professional obligations before any real use (see the regulated-work note below and [docs/known-limitations.md](docs/known-limitations.md)). Evaluate in an isolated sandbox with synthetic data and separate, least-privilege test credentials. The point of the build was the learning; the repo is the receipt.
 
 > **Regulated-work note:** The practice of law is regulated. To the extent an operator is practicing law with PossibLaw, the operator needs to involve a lawyer. PossibLaw is open-source tooling, not a legal-services provider.
 
@@ -32,7 +34,7 @@ How the trust features map to a lawyer's professional-responsibility duties — 
 A chat window that drafts a whole contract in one shot gives you one big, opaque output to trust or distrust. PossibLaw is built the other way: **work is decomposed into the smallest reviewable units — one agent, one skill, one gate decision, one receipt — because small units are where control and quality come from.**
 
 - **More control.** You approve at the boundary that matters (a court filing, a signature, a payment), not on every keystroke and not on one monolithic "submit." Each atomic action is independently classified, gated, and logged — so you can allow the routine and stop the consequential.
-- **Better work — an empirical claim we test rather than assert.** A focused agent doing one bounded task (NDA redline, citation check, diligence summary) is easier to make correct, easier to eval, and easier to swap than a generalist doing everything. Whether decomposition also yields measurably better end deliverables is under active measurement: our first pre-registered A/B against Harvey LAB came back honest — not supported at the tier tested, with a higher ceiling but equal median for orchestration ([the full findings, owned plainly](docs/builds/orchestration-ab-findings.md)). The 180 agents / 178 skills are atomic on purpose: composable parts, each with its own evals, each replaceable without touching the rest. One of those agents is a non-working service principal used only by the firm facade.
+- **Better work — an empirical claim tested during the build.** A focused agent doing one bounded task (NDA redline, citation check, diligence summary) is easier to make correct, easier to eval, and easier to swap than a generalist doing everything. Whether decomposition also yields measurably better end deliverables was measured during development: our first pre-registered A/B against Harvey LAB came back honest — not supported at the tier tested, with a higher ceiling but equal median for orchestration ([the full findings, owned plainly](docs/builds/orchestration-ab-findings.md)). The 180 agents / 178 skills are atomic on purpose: composable parts, each with its own evals, each replaceable without touching the rest. One of those agents is a non-working service principal used only by the firm facade.
 - **Provenance per unit.** Because the unit is small, its provenance is legible: this output, citing these authorities, approved by this human, recorded in this receipt. That is exactly the slice a regulator or insurer asks to see.
 
 The catalog is the supporting cast. The atomic pipeline — decompose, gate, receipt — is the product.
@@ -407,7 +409,7 @@ From the plan: *"The goal is to show that the routing hierarchy, test layer, gua
 
 ## Posture
 
-Open, public, Apache 2.0 from day 1. No SLAs. Fork-friendly. Contributions via pull request.
+Open, public, Apache 2.0 from day 1. Unmaintained and fork-friendly. No SLAs or commitment to review issues or pull requests; continue development in your own fork.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution workflow and [SECURITY.md](SECURITY.md) for the security posture.
 
