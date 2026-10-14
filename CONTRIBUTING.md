@@ -1,6 +1,6 @@
 # Contributing to PossibLaw
 
-Thanks for your interest! PossibLaw is a proof-of-concept, but contributions are welcome.
+Bailey / PossibLaw is an unmaintained exemplar. Anyone may continue development in their own fork under Apache-2.0; there is no commitment to review issues or pull requests. The workflow below is retained as a historical reference for fork maintainers.
 
 ## How to propose changes
 

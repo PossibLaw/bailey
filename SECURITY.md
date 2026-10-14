@@ -1,6 +1,6 @@
 # Security Policy
 
-PossibLaw is a **proof-of-concept**. Security fixes are best-effort. There are no SLAs or support contracts.
+Bailey / PossibLaw is an **unmaintained exemplar**. No security fixes, updates, support, or SLAs are promised. Operators of a fork are responsible for its security maintenance. See [README.md](README.md) for use guidance and the warranty disclaimer.
 
 ---
 
@@ -8,8 +8,7 @@ PossibLaw is a **proof-of-concept**. Security fixes are best-effort. There are n
 
 | Version | Status |
 |---|---|
-| 0.1.x | Best-effort security fixes |
-| 0.0.x | No longer supported — upgrade to 0.1.x |
+| All versions | Unmaintained; no security updates or support promised |
 
 ---
 
@@ -17,8 +16,7 @@ PossibLaw is a **proof-of-concept**. Security fixes are best-effort. There are n
 
 **Do not open a public GitHub issue for security vulnerabilities.**
 
-1. **Preferred:** Open a [GitHub Security Advisory](https://github.com/PossibLaw/possiblaw/security/advisories/new) in this repository. GitHub will keep it private until a fix is published.
-2. **Email fallback:** `[security@possiblaw.example]` — replace this placeholder with your actual security contact before going live.
+If private vulnerability reporting is enabled, use this repository's [GitHub Security Advisory](https://github.com/PossibLaw/bailey/security/advisories/new) reporting flow. There is no maintained security contact or guaranteed response.
 
 Please include:
 - A description of the vulnerability and its potential impact.
@@ -26,7 +24,7 @@ Please include:
 - The version of PossibLaw you tested against.
 - Whether you believe there is active exploitation.
 
-We will acknowledge within 7 business days and aim for a fix within 30 days for confirmed vulnerabilities, depending on severity and PoC complexity.
+Reports may remain unreviewed, and no investigation, fix, or disclosure timeline is promised. If you maintain a fork, establish your own reporting and response process.
 
 ---
 
